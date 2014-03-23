@@ -28,7 +28,8 @@ function get_host_rrd_files($dir) {
 
 	$objects = new RegexIterator(
 		new RecursiveIteratorIterator(
-		new RecursiveDirectoryIterator($dir),
+			new RecursiveDirectoryIterator($dir,
+			RecursiveDirectoryIterator::FOLLOW_SYMLINKS),
 		RecursiveIteratorIterator::SELF_FIRST),
 		'/\.rrd$/');
 
