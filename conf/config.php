@@ -22,7 +22,7 @@ $CONFIG['rrdtool_opts'] = array();
 #$CONFIG['cat']['Mailservers'] = '/mail\d+/';
 
 # UI skin
-$CONFIG['ui_skin'] = 'default';
+$CONFIG['ui_skin'] = 'dark';
 
 # default plugins to show on host page
 $CONFIG['overview'] = array('load', 'cpu', 'memory', 'swap');
