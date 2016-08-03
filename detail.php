@@ -62,7 +62,7 @@ foreach($CONFIG['term'] as $key => $s) {
 print "</ul>\n";
 
 #if ($CONFIG['graph_type'] == 'canvas') {
-if (0)
+if (0) {
 	chdir($CONFIG['webdir']);
 	include $CONFIG['webdir'].'/graph.php';
 } else {
