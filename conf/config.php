@@ -67,7 +67,7 @@ $CONFIG['negative_io'] = false;
 $CONFIG['percentile'] = false;
 
 # create smooth graphs (rrdtool -E)
-$CONFIG['graph_smooth'] = false;
+$CONFIG['graph_smooth'] = true;
 
 # draw min/max spikes in a lighter color in graphs with type default
 $CONFIG['graph_minmax'] = false;
@@ -88,7 +88,7 @@ $CONFIG['width'] = 600;
 $CONFIG['height'] = 250;
 # default width/height of detailed graphs
 $CONFIG['detail-width'] = 2200;
-$CONFIG['detail-height'] = 600;
+$CONFIG['detail-height'] = 900;
 # max width/height of a graph (to prevent from OOM)
 $CONFIG['max-width'] = $CONFIG['detail-width'] * 2;
 $CONFIG['max-height'] = $CONFIG['detail-height'] * 2;
