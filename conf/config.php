@@ -54,7 +54,7 @@ $CONFIG['term'] = array(
 $CONFIG['network_datasize'] = 'bytes';
 
 # "png", "svg", "canvas" or "hybrid" (canvas on detail page, png on the others) graphs
-$CONFIG['graph_type'] = 'hybrid';
+$CONFIG['graph_type'] = 'canvas';
 
 # For canvas graphs, use 'async' or 'sync' fetch method
 $CONFIG['rrd_fetch_method'] = 'sync';
