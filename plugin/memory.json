@@ -43,7 +43,15 @@
 			"wired": {
 				"name": "Wired",
 				"color": "ff0000"
-			}
+			},
+                        "slab_recl": {
+                                "name": "Slab Reclaimed",
+                                "color": "0000ff"
+                        },
+                        "slab_unrecl": {
+                                "name": "Slab Unreclaimed",
+                                "color": "ff0044"
+                        }
 		},
 		"base": "1024"
 	}
