@@ -88,7 +88,7 @@ $CONFIG['width'] = 600;
 $CONFIG['height'] = 250;
 # default width/height of detailed graphs
 $CONFIG['detail-width'] = 2200;
-$CONFIG['detail-height'] = 1050;
+$CONFIG['detail-height'] = 1000;
 # max width/height of a graph (to prevent from OOM)
 $CONFIG['max-width'] = $CONFIG['detail-width'] * 2;
 $CONFIG['max-height'] = $CONFIG['detail-height'] * 2;
